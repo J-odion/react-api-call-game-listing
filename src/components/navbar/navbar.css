@@ -1,0 +1,68 @@
+/* MOBILE FIRST APPROACH */
+
+.navbar
+{
+    padding: 15px 20px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.navbar__brand h1
+{
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: ease 0.5s all;
+}
+.navbar__brand h1 span:hover
+{
+    letter-spacing: 3px;
+    color:brown;
+}
+
+.search__games
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search__games input
+{
+    font-family: var(--font-family);
+    padding: 3px 5px;
+    outline: none;
+    font-size: 14px;
+} 
+
+.search__games button
+{
+    padding: 5px 15px;
+    cursor: pointer;
+    background-color: var(--white-color);
+    border: none;
+    font-weight: 900;
+    font-size: 14px;
+    border-radius: 2px;
+    color: var(--text-color-1);
+}
+
+@media(min-width: 900px)
+{
+    .navbar{
+        flex-direction: row;
+    }
+
+    .navbar__brand h1{
+        margin-bottom: 0px;
+    }
+}

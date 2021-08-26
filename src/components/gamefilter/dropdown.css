@@ -1,0 +1,51 @@
+.filter__container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter_btn
+{
+    display: block;
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: var(--white-color);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+
+.filter__form
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+.filter__form label
+{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+
+.filter__form > div select
+{
+    margin-left: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    font-size: 15px;
+    background-color: var(--primary-color);
+}
